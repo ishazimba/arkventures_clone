@@ -1,0 +1,263 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  color: Black;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.partners{
+  border-bottom-width: 5px;
+  border-bottom-color: Red;
+  border-bottom-style: groove;
+}
+
+.training{
+  font-size: 18px;
+
+  margin-left: 450px;
+
+  text-align:  center
+  border-width: 5px;
+  border-style: groove;
+  border-color: #8f8f8f;
+
+}
+ .contact{
+   padding-top: 100px;
+   height: 100px;
+ }
+ .contact h1{
+   color: white;
+ }
+/* Containers */
+
+.container-fluid{
+  padding: 1% 1%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #A63137;
+  color: #fff;
+  height: 1000px;
+}
+
+.white-section {
+  background-color: #ffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.affiliation{
+  width: 90%;
+
+
+
+}
+
+.colored-training{
+  background-color: #F7FAFC;
+
+  height: 500px;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+.training-div{
+  margin-top: 20px;
+}
+
+
+.contact-color{
+  background-color: #A63137;
+  color: #fff;
+  height: 400px;
+}
+
+.affiliation-section{
+
+  padding-left: 20px;
+  text-align: left;
+
+  border-width: 2px;
+  border-style: groove;
+  width: 80%;
+  margin-left: 100px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 10px;
+
+
+}
+.collapse{
+  padding-left: 300px;
+}
+.line{
+  position: fixed;
+  width: 80%;
+  margin-top: 20px;
+}
+
+/*About*/
+.about{
+  padding-left: 120px;
+  width: 90%;
+  text-align: justify;
+}
+#pic1{
+  width: 85%;
+
+}
+#network{
+  width: 85%;
+  padding-left: 50px;
+}
+
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.contact-button {
+  margin: 5% 3% 5% 0;
+}
+
+.row{
+  padding-top: 50px;
+}
+
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #A63137;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+/*  transform: rotate(2deg);*/
+  position: absolute;
+  right: 5%;
+
+
+}
+
+.logo{
+  width:50%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.our-services{
+  width: 100%;
+  text-align: justify;
+  padding-left: 150px;
+}
+
+.services-box{
+  border: groove;
+  border-width: 2px;
+  width: 25%;
+  float: left;
+  margin: 20px;
+
+}
+.services-box-training{
+  border: groove;
+  border-width: 2px;
+  width: 25%;
+  float: right;
+  margin: 20px;
+
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #F7FAFC;
+}
+
+.clientele{
+  color: Black;
+
+}
+.international{
+  color: Black;
+}
+.national{
+  color: Black;
+}
+
+.footer-logo img{
+  float: left;
+  padding-left: 80px;
+  width: 10%;
+  height: 10%;
+}
